@@ -1,0 +1,40 @@
+.nav-container {
+    width: 100vw;
+    background-color: none;
+    color: #fff;
+}
+
+.nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #2600ff; /* Cambiar color al pasar el cursor */
+}
+.nav p{
+    font-size: 20px;
+}

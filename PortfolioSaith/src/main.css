@@ -1,8 +1,9 @@
 body{
-    color: #ffffff;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
     background: #222;
     font-family: system-ui;
-    display: grid;
-    place-content: center;
+    display: flex;
 }
