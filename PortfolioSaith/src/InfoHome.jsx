@@ -4,16 +4,15 @@ export function HomeInfo (){
     return(
         <>
             <section className='home-info-container'>
-                <div>
+                <div className=''>
                     <p>Hi There!</p>
                     <h1>I am Saith</h1>
-                    <p>And i am Frontend Developer | ReactJS</p>
+                    <p>And I am Frontend Developer | ReactJS</p>
                     <br />
                     <ButtonContact />
                 </div>
-                <aside className='photo-container'>
-                    <img className='react-logo' src="../public/react-svgrepo-com.svg" alt="" />
-                </aside>
+                <div className='photo-container'>
+                </div>
             </section>
         </>
     )
@@ -24,3 +23,4 @@ export function ButtonContact (){
         <button className='button-contact'>Contact me</button>
     )
 }
+

@@ -6,4 +6,5 @@ body{
     background: #14172a;
     font-family: system-ui;
     display: flex;
+    flex-direction: column;
 }
