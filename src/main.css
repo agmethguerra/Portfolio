@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    background: #202540;
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Agrega un scroll vertical cuando sea necesario */
+    overflow-x: hidden; /* Oculta el scroll horizontal */
+    border: 10px solid transparent;
+    border-radius: 15px;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #313364;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #414378;
+}

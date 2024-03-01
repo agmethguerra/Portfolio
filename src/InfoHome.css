@@ -1,0 +1,42 @@
+.home-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+}
+.home-info-container p{
+    font-size: 40px;
+    color: rgb(148, 153, 181); 
+    margin: 0;
+}
+.home-info-container h1{
+    font-size: 100px;
+    margin: 0;
+}
+button.button-contact{
+    background-color: rgb(148, 153, 181);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+button.button-contact:hover {
+    background-color: #b1b4c6;
+}
+.logo-react img {
+    height: 400px;
+    animation: spin 30s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
