@@ -1,6 +1,6 @@
 import React from 'react';
 import './InfoHome.css';
-import foto from '../assets/foto.png'
+import foto from "../assets/foto.png"
 
 export function HomeInfo() {
     return (
