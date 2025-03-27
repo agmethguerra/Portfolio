@@ -12,7 +12,7 @@ export function HomeInfo() {
                 <ButtonContact />
             </div>
             <div className='foto'>
-                <img src="../public/foto.png" alt="Foto Saith" />
+                <img src={`${import.meta.env.BASE_URL}foto.png`} alt="Foto" />
             </div>
         </section>
     );
