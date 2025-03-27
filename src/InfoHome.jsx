@@ -1,5 +1,6 @@
 import React from 'react';
 import './InfoHome.css';
+import foto from "../public/foto.png"
 
 export function HomeInfo() {
     return (
@@ -12,7 +13,7 @@ export function HomeInfo() {
                 <ButtonContact />
             </div>
             <div className='foto'>
-                <img src={`${import.meta.env.BASE_URL}foto.png`} alt="Foto" />
+                <img src={foto} alt="Foto" />
             </div>
         </section>
     );
